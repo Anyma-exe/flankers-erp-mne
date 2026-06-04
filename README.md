@@ -1,5 +1,11 @@
 # Flankers ERP Analysis — MNE-Python
 
+[
+
+![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)
+
+](https://colab.research.google.com/github/Anyma-exe/flankers-erp-mne/blob/main/flankers-erp-mne.ipynb)
+
 Replication of the Flankers congruence effect using EEG data 
 from the ERP CORE dataset (Kappenman et al., 2021).
 
