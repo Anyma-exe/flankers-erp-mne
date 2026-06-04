@@ -4,7 +4,7 @@ Replication of the Flankers congruence effect using EEG data
 from the ERP CORE dataset (Kappenman et al., 2021).
 
 In the Flankers paradigm, participants respond to a central arrow 
-flanked by compatible (→→→→→) or incompatible (→→←→→) distractors. 
+flanked by compatible (→) or incompatible (→) distractors. 
 Incompatible trials create response conflict, resulting in slower 
 reaction times and a larger N2 component over frontocentral 
 electrodes — a neural marker of conflict monitoring generated in 
@@ -28,6 +28,20 @@ This notebook is my attempt to walk through that process end-to-end, as a first 
 ## Key result
 
 N2 amplitude was larger for incompatible trials (−9µV) than compatible trials (−7µV) at FCz, consistent with conflict monitoring literature. The effect did not reach significance in this single-subject analysis (t = −1.40, p = .163), which is expected given limited statistical power.
+
+## Results
+
+**ERP — FCz — Compatible vs Incompatible**
+
+
+![ERP](erp.png)
+
+
+
+**Topomap — Distribution spatiale à 100, 200, 300ms**
+
+
+![Topomap](topomap.png)
 
 ## Dataset
 
